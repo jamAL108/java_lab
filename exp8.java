@@ -32,7 +32,7 @@ volume=(4/3)*3.1415*r*r*r;
 return volume;
 }
 }
-class experiment8
+class exp8
 {
 public static void main(String args[])
 {
