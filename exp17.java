@@ -27,8 +27,10 @@ public class exp17
                if(condition==false){
                 j++;
                 throw new oddexception("Number is non prime:"+n[i]);
+               }else{
+                   System.out.println("the square of entered prime number:" + n[i] + " is " + n[i]*n[i]);
                }
-               
+              
             }
             catch(oddexception e)
             {
