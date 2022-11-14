@@ -28,6 +28,8 @@ class exp10
                 {
                     j++;
                     throw new oddexception("Number is odd :"+n[i]);
+                }else{
+                    System.out.println("the square of entered even number:"+ n[i] + " is " + n[i]*n[i]);
                 }
             }
             catch(oddexception e)
