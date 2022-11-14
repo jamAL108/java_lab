@@ -1,29 +1,27 @@
+import java.util.*;
 public class exp4 {
-    void area(double length , double breadth){
-        double ans = length*breadth;
-        System.out.println("the area of rectangle is:"+ ans);
-    }
-    
-    void area(int side){
+        void area(int side){
         double ans = side*side;
         System.out.println("the area of square is:"+ ans);
     }
     void area(int height , int base){
         double ans = 0.5*height*base;
-        System.out.println("the area of rectangle is:"+ ans);
+        System.out.println("the area of triangle is:"+ ans);
     }
     
-    void area(double radius){
-        double ans = 3.14*radius*radius ;
-        System.out.println("the area of square is:"+ ans);
-    }
-
-
     public static void main(String[] args) {
+        int side;
+        int height ;
+        int base;
         exp4 obj = new exp4();
-        obj.area(4.4,3.4);
-        obj.area(4);
-        obj.area(2,5);
-        obj.area(23.4);
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter the side:");
+        side = sc.nextInt();
+        obj.area(side);
+        System.out.println("enter the height:");
+        height = sc.nextInt();
+        System.out.println("enter the base:");
+        basee = sc.nextInt();
+        obj.area(height,base);
     }
 }
