@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class exp6{
+public class exp16{
     public static void main(String[] args){
         Scanner scan = new Scanner(System.in);
             System.out.println("Enter the Number of Matrix Rows");
