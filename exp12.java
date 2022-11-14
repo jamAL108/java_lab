@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class exp1{
+public class exp12{
     public static void main(String[] args){
         int marks;
         System.out.println("enter the marks:");
