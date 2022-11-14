@@ -8,37 +8,18 @@ public class exp12{
         marks = sc.nextInt();
         marks = marks/10;
         switch(marks){
-            case 1:
+            case 0,1,2,3:
             System.out.println("fail");
             break;
-            case 2:
-            System.out.println("fail");
-             break;
-            case 3:
-            System.out.println("fail");
-             break;
-            case 4:
+            case 4,5:
             System.out.println("C grade");
              break;
-            case 5:
-            System.out.println("C grade"); 
-            break;
-            case 6:
+            case 6,7:
             System.out.println("B grade");
              break;
-            case 7:
-            System.out.println("B grade"); 
-            break;
-            case 8:
+            case 8,9,10:
             System.out.println("A grade"); 
             break;
-            case 9:
-            System.out.println("A grade");
-             break;
-            case 10:
-            System.out.println("A grade");
-             break;
-
         }
     }
 }
