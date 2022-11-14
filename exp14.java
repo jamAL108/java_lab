@@ -1,11 +1,11 @@
 import java.util.*;
 class calculation{
-    void triangle(double height , double base){
+    void triangle(int height , int base){
         double ans = 0.5*height*base;
         System.out.println("the area of triangle is:"+ ans);
     }
     
-    void circle(double radius){
+    void circle(int radius){
         double ans = 3.14*radius*radius;
         System.out.println("the area of circle is:"+ ans);
     }
@@ -16,11 +16,11 @@ public class exp14 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("enter the height:");
-        int length = sc.nextInt();
+        int height = sc.nextInt();
         System.out.println("enter the base:");
-        int breadth = sc.nextInt();
+        int base = sc.nextInt();
         System.out.println("enter the radius:");
-        int side = sc.nextInt();
+        int radius = sc.nextInt();
         calculation obj = new calculation();
         obj.triangle(height,base);
         obj.circle(radius);
