@@ -8,15 +8,9 @@ public class exp1{
         marks = sc.nextInt();
         marks = marks/10;
         switch(marks){
-            case 1:
+            case 0,1,2,3:
             System.out.println("fail");
-            break;
-            case 2:
-            System.out.println("fail");
-             break;
-            case 3:
-            System.out.println("fail");
-             break;
+            break;        
             case 4:
             System.out.println("pass");
              break;
@@ -26,19 +20,9 @@ public class exp1{
             case 6:
             System.out.println("first class");
              break;
-            case 7:
+            case 7,8,9,10:
             System.out.println("destinction"); 
             break;
-            case 8:
-            System.out.println("destinction"); 
-            break;
-            case 9:
-            System.out.println("destinction");
-             break;
-            case 10:
-            System.out.println("destinction");
-             break;
-
         }
     }
 }
