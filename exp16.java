@@ -19,7 +19,7 @@ public class exp16{
             ob.display(matrix1, matrixRow, matrixCol);
 
             System.out.println("addition of matrix is: ");
-            ob.transpose(matrix1,matrix2, matrixRow, matrixCol);
+            ob.Addition(matrix1,matrix2, matrixRow, matrixCol);
     } 
 }
 
@@ -42,7 +42,7 @@ class matrix{
         }
     }
 
-    void transpose(int[][] matrix1 ,int[][]matrix2, int matrixRow, int matrixCol){
+    void Addition(int[][] matrix1 ,int[][]matrix2, int matrixRow, int matrixCol){
         for(int i=0; i<matrixRow; i++){
             for(int j=0; j<matrixCol; j++){
                 System.out.print(matrix1[i][j]+matrix2[i][j]+"\t");
