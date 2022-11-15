@@ -54,7 +54,6 @@ class exp9
 {
  public static void main(String args[])
  {
-  Scanner sc = new Scanner(System.in);
   Result ob = new Result();
   ob.getnumber();
   ob.getmarks();
