@@ -34,7 +34,7 @@ public class exp17
             }
             catch(oddexception e)
             {
-                System.out.println("Caught exception");
+                 e,printStackTrace():
             }
         }
         System.out.println("Invalid numbers are : "+j);
