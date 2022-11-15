@@ -1,4 +1,3 @@
-// import java.lang.Exception;
 import java.util.*;
 class oddexception extends Exception
 {
